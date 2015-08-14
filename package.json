@@ -1,0 +1,14 @@
+{
+  "name": "browserstack-protractor",
+  "version": "0.0.1",
+  "description": "A simple test to try browserstack with protractor and mobile devices",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "./node_modules/.bin/protractor protractor.conf.js"
+  },
+  "author": "Jan Florian Dietrich <jfd@daenen4.de> (http://www.daenen4.de/)",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "^2.1.0"
+  }
+}
